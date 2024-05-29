@@ -39,7 +39,7 @@ buttons = InlineKeyboardMarkup(
             InlineKeyboardButton(text="▢", callback_data="end_cb"),
             ],
             [
-            InlineKeyboardButton("⦓ ᥉᥆ᥙᖇᥴᥱ ƚᥱƚ᥆ ⦔", url=f"https://t.me/T7_AU"),
+            InlineKeyboardButton("𝒔𝒐𝒖𝒓𝒄𝒆 𝒏𝒂𝒋𝒅 🇸🇦", url=f"https://t.me/ngd_1"),
         ]
     ]
 )
@@ -54,14 +54,14 @@ pm_buttons = [
     ],
     [InlineKeyboardButton(text="• اوامࢪ التشغيل •", callback_data="fallen_help")],
     [
-        InlineKeyboardButton(text="• سوࢪس تيـتو •", url=config.SUPPORT_CHANNEL),
-        InlineKeyboardButton(text="• جࢪوب الدعم •", url=config.SUPPORT_CHAT),
+        InlineKeyboardButton(text="• سورس 𝒏𝒂𝒋𝒅 🇸🇦 •", url=config.SUPPORT_CHANNEL),
+        InlineKeyboardButton(text="•  تحديثات السورس🍻 •", url=config.SUPPORT_CHAT),
     ],
     [
         InlineKeyboardButton(
-            text="• مطوࢪ السورس •", url="https://t.me/G_7_Rr"
+            text="• مطوࢪ السورس •", url="https://t.me/NGD_2"
         ),
-        InlineKeyboardButton(text="• مالك البوت •", user_id=config.OWNER_ID),
+        InlineKeyboardButton(text="• Dev🏅 •", user_id=config.OWNER_ID),
     ],
 ]
 
@@ -74,14 +74,14 @@ gp_buttons = [
         )
     ],
     [
-        InlineKeyboardButton(text="• سوࢪس تيـتو •", url=config.SUPPORT_CHANNEL),
-        InlineKeyboardButton(text="• جࢪوب الدعم •", url=config.SUPPORT_CHAT),
+        InlineKeyboardButton(text="•  سورس 𝒏𝒂𝒋𝒅 🇸🇦 •", url=config.SUPPORT_CHANNEL),
+        InlineKeyboardButton(text="•  تحديثات السورس🍻 •", url=config.SUPPORT_CHAT),
     ],
     [
         InlineKeyboardButton(
-            text="• مطوࢪ السورس •", url="https://t.me/G_7_Rr"
+            text="• مطوࢪ السورس •", url="https://t.me/NGD_2"
         ),
-        InlineKeyboardButton(text="• مالك البوت •", user_id=config.OWNER_ID),
+        InlineKeyboardButton(text="•  Dev🏅 •", user_id=config.OWNER_ID),
     ],
 ]
 
@@ -95,7 +95,7 @@ helpmenu = [
     ],
     [
         InlineKeyboardButton(text="• اوامࢪ المطور •", callback_data="fallen_cb sudo"),
-        InlineKeyboardButton(text="• اوامࢪ المالك •", callback_data="fallen_cb owner"),
+        InlineKeyboardButton(text="• ااوامر الادمن•", callback_data="fallen_cb owner"),
     ],
     [
         InlineKeyboardButton(text="• ࢪجوع •", callback_data="fallen_home"),
@@ -105,7 +105,7 @@ helpmenu = [
 
 
 help_back = [
-    [InlineKeyboardButton(text="• جࢪوب الدعم •", url=config.SUPPORT_CHAT)],
+    [InlineKeyboardButton(text="•  تحديثات السورس🍻", url=config.SUPPORT_CHAT)],
     [
         InlineKeyboardButton(text="• ࢪجوع •", callback_data="fallen_help"),
         InlineKeyboardButton(text="• مسح •", callback_data="close"),
