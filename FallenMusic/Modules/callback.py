@@ -102,7 +102,7 @@ async def admin_cbs(_, query: CallbackQuery):
         await stream_on(query.message.chat.id)
         await pytgcalls.resume_stream(query.message.chat.id)
         await query.message.reply_text(
-            text=f" تم استئناف التشغيل ⚡\n \n بواسطة : {query.from_user.mention} 🥀",
+            text=f" تم استئناف التشغيل 🍻\n \n بواسطة : {query.from_user.mention} 🥀",
             reply_markup=close_key,
         )
 
@@ -170,7 +170,7 @@ async def admin_cbs(_, query: CallbackQuery):
             )
             return await query.message.reply_photo(
                 photo=img,
-                caption=f"** بدء تشغيل**\n\n **العنوان :** [{title[:27]}](https://t.me/{BOT_USERNAME}?start=info_{videoid})\n⎊ **المدة :** `{duration}` دقيقة\n⎊ **مطلوبة من :** {req_by}",
+                caption=f"** بدء تشغيل**\n\n **العنوان :** [{title[:27]}](https://t.me/{BOT_USERNAME}?start=info_{videoid})\n **المدة :** `{duration}` دقيقة\n **مطلوبة من :** {req_by}",
                 reply_markup=buttons,
             )
 
@@ -190,7 +190,7 @@ async def unban_ass(_, CallbackQuery):
                 show_alert=True,
             )
         return await CallbackQuery.edit_message_text(
-            f" {ASS_NAME} تم رفع الحظر بنجاح بواسطة {CallbackQuery.from_user.mention}.\n\⎊ البوت يعمل الان ⚡"
+            f" {ASS_NAME} تم رفع الحظر بنجاح بواسطة {CallbackQuery.from_user.mention}.\n\ البوت يعمل الان 🍻"
         )
     else:
         return await CallbackQuery.answer(
