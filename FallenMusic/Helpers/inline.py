@@ -95,7 +95,7 @@ helpmenu = [
     ],
     [
         InlineKeyboardButton(text=" اوامࢪ المطور ", callback_data="fallen_cb sudo"),
-        InlineKeyboardButton(text=" اوامر Dev 🏅", callback_data="fallen_cb owner"),
+        InlineKeyboardButton(text="  Dev 🏅", callback_data="fallen_cb owner"),
     ],
     [
         InlineKeyboardButton(text=" ࢪجوع ", callback_data="fallen_home"),
